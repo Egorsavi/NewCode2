@@ -11,8 +11,8 @@ if(b==1){
     printf("Result is %d", res);
 }else if(b==2) {
       if(2-b*c>=0) {
-            float res = sqrt((float)(2*b*c));
-            printf("Result is %f", res);
+            float         res         =         sqrt (( float )) (    2    -    b    *    c ); -
+            printf ( "Результат: %f" , res );
         }else{
             printf("Don't exist(because 2-b*c<0)");
         }
